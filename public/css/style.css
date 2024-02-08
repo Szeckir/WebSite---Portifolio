@@ -99,6 +99,7 @@ body {
 }
 
 #title-menu-sobre-mim {
+    position:relative;
     font-size: 50px;
     color: white;
     margin-left: 330px;
@@ -109,6 +110,8 @@ body {
 #menu-sobre-mim-linha {
     width: 790px;
     text-align: left;
+    position: relative;
+    margin-left: 330px;
 }
 
 .menu-sobre-mim-texto {
@@ -116,9 +119,11 @@ body {
     color: white;
     font-size: 15px;
     font-family: sans-serif;
-    margin-top: 20px;
+    margin-top: 25px;
+
 }
 
 .menu-sobre-mim-texto p {
     margin-top: 10px;
+    position: relative;
 }
