@@ -70,6 +70,20 @@ body {
     padding-left: 30px;
 }
 
+.about-me-title {
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    
+}
+
+.about-me-title hr {
+    width: 910px;
+    position: relative;
+    margin-right: 200px;
+}
+
 .menu-about-me section details summary {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
