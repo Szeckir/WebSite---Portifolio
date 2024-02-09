@@ -49,13 +49,13 @@ body {
 }
 
 .side-bar-menu-list ul li {
-    padding: 5px;
+    padding: 8px;
 }
 
 .side-bar-menu-list ul li a{
     margin-left: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
 }
 
