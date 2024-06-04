@@ -5,9 +5,15 @@ btnEmoji.innerHTML = '😎'
 function mudarEmojiMenuPrincipal() {
     const emojis = ['😊', '😎', '😍', '🥳', '😂', '😜', '😇', '🤩', '😁', '🤔'];
     const randomPosition = Math.floor(Math.random() * emojis.length);
-    
+
     btnEmoji.innerHTML = emojis[randomPosition]
 }
+
+// ARRUMAR AQUI A MUDANCA DE IMAGEM QUANDO CLICA NO EMOJI
+// function mudaImagemMenuPrincipal() {
+//     const imgMenu = document.querySelector("side-bar-thomaz-img")
+//     imgMenu.innerHTML += '<img src="/public/images/img-logo.png" alt="Imagem de Thomaz Gomes Szeckir">' 
+// }
 
 const fundo = document.querySelector('#body')
 const btnMudarFundo = document.querySelector('#btn-change-theme')
@@ -76,4 +82,9 @@ function adicionarTextoAcerteNumero() {
             <img src="/public/images/acerte-numero-playing.png" alt="Imagem Jogo">
         </div>
     `
+}
+
+
+function addTextoExperiencia() {
+    
 }
